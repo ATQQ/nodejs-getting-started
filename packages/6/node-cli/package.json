@@ -1,0 +1,31 @@
+{
+  "name": "npm-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "bin": {
+    "hello-node": "dist/bin.js",
+    "node-hello": "dist/commander-test.js"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts src/bin.ts src/commander-test.ts --target es6 --format cjs,esm --dts",
+    "dev": "tsup src/index.ts src/bin.ts src/commander-test.ts --target es6 --format cjs,esm --dts --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "commander": "^10.0.1"
+  }
+}

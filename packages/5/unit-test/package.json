@@ -1,0 +1,13 @@
+{
+  "name": "unit-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:assert": "node assert-test/index.js",
+    "test:runner":"node --test test-runner/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,22 @@
+/Users/sugar/Documents/fe/nodejs0-1/packages/6/express-demo
+├── app.js
+├── middleware
+|  └── index.js
+├── out.txt
+├── package-lock.json
+├── package.json
+├── public
+|  ├── index.css
+|  ├── index.html
+|  └── index.js
+└── routes
+   ├── headers.js
+   ├── index.js
+   ├── method.js
+   ├── response.js
+   ├── restful.js
+   └── router-demo.js
+
+directory: 146 file: 677
+
+ignored: directory (15)

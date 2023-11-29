@@ -1,0 +1,18 @@
+{
+  "name": "1.4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js",
+    "hello": "echo hello world",
+    "test": "node test.js",
+    "multiple": "node test.js && npm run hello && npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

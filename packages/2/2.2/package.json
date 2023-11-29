@@ -1,0 +1,13 @@
+{
+  "name": "2.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "debug-chrome.js",
+  "scripts": {
+    "dev": "node debug-chrome.js",
+    "build": "node debug-chrome.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

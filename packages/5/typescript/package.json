@@ -1,0 +1,20 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc:compile": "tsc index.ts",
+    "ncc:compile": "ncc build ./index.ts",
+    "tsup:compile": "tsup ./index.ts",
+    "bun:compile":"bun build ./index.tsx --outdir ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/ncc": "^0.36.1",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  }
+}
